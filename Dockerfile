@@ -1,7 +1,7 @@
 FROM alpine:3
 
-ARG HADOLINT_VERSION="2.9.2"
-ARG TFSEC_VERSION="1.13.0"
+ARG HADOLINT_VERSION="2.12.0"
+ARG TFSEC_VERSION="1.28.4"
 
 RUN apk add --no-cache --update \
         curl \
